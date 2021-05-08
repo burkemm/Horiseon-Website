@@ -11,7 +11,7 @@ I learned to keep trying new things. A lot of my code elimination resulted from 
 assignment because it's very easy to think you have nothing left to do with an assignment, then you find out you had to do more after a peer review.
 
 **URLs for the Horiseon Website** <BR />
-<a href ="https://burkemm.github.io/Horiseon-Website---Homework1/#social-media-marketing">Horiseon Webiste</a> <BR />
+<a href ="https://burkemm.github.io/Horiseon-Website/#social-media-marketing">Horiseon Website</a> <BR />
 <a href ="https://github.com/burkemm/Horiseon-Website">Horiseon Github Repository</a>
 
 **What's the current webpage look like?** <BR />
