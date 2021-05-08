@@ -12,4 +12,6 @@ assignment because it's very easy to think you have nothing left to do with an a
 
 **What's the current webpage look like?** <BR />
 
-![Horiseon-Website](/assets/images/lead-generation.png)
+![Horiseon-Website](./assets/images/Horiseon-Website.png)
+
+<a href="https://github.com/burkemm/Horiseon-Website---Homework1/blob/main/assets/images/Horiseon-Website.png"> Horiseon Website Screenshot link</a>
