@@ -5,18 +5,20 @@
 }
 
 .header {
-    padding: 20px;
+    padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #272829;
     color: #ffffff;
 }
 
-.header h1 {
+ .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 38px;
+    background-color: #4c5397;
+    color: #a9afeb;
 }
 
-.header div {
+ .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -24,193 +26,122 @@
     font-size: 20px;
 }
 
-.header div ul li {
+ .header div ul li {
+    border-bottom: 2px solid #a9afeb;
+    
     display: inline-block;
     margin-left: 25px;
-}
+} 
 
 a {
-    color: #ffffff;
+    color: #a9afeb;
     text-decoration: none;
 }
-/* Moved from lines 7-9 */
+
 body {
-    background-color: #d9dcd6;
+    background-color: #a9afeb;
+    height: 1750px;
 }
 
-.hero {
-    height: 800px;
+.stars {
+    height: 400px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/Stars.jpg");
     background-size: cover;
     background-position: center;
 }
-/* Moved from Lines 733-77. */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+
+.main-content{
+    line-height: 2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #0d0536;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+.about-me{
+    justify-content: space-around;
+    display: flex;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
+.content-about{
+    margin-right: 300px;
+    border-left: 5px solid rgb(82, 69, 199);
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+ }
+
+ .about-item{
+    text-indent: 50px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 33px;
+ }
+
+ .my-work{
+    justify-content: space-around;
+    display: flex;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.content-work{
+    margin-right: 292px;
+    border-left: 5px solid rgb(82, 69, 199);
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+ }
+
+ .work-item{
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color:rgb(82, 69, 199);
+    transform: scale(1.5, 1);
+ }
+
+.contact-me{
+    justify-content: space-around;
+    display: flex;
 }
 
-/* Moved from lines 175-177. */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-/* Moved from lines 186-189. */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Moved from lines 180-182. */
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* Moved from lines 190-193. */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Moved all benefits clases */
-.benefits {
-    margin-right: 20px;
+.content-contact{
+    margin-right: 315px;
+    border-left: 5px solid rgb(82, 69, 199);
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
     padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+ }
+
+ .contact-item{
+    font-size: 25px;
+    margin-top: 28px;
+ }
+
+ .my-resume{
+    justify-content: space-around;
+    display: flex;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-    text-align: center;
-}
+.content-resume{
+    margin-right: 137px;
+    border-left: 5px solid rgb(82, 69, 199);
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+ }
 
-/* *Moved from lines 122-126. */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+ .resume-item{
+    font-size: 25px;
+    margin-top: 28px;
+    margin-left: 5px;
+ }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-    text-align: center;
-}
-/* Moved from lines 143-138. */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-    text-align: center;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-/* all code below was removed with a listed reason.*/
-
-/* .header h1 .seo { //Removed this class because it serves no purpose.
-    color: #d9dcd6;
-} */
-
-/* .header div ul { //Removed as it served no purpose.
-    list-style-type: none;
-} */
-
-/* .header div ul { //Removed as it served no purpose.
-    list-style-type: none;
-} */
-
-/* p { // Removed this line to condense the code. It doesn't appear to serve a purpose.
-    font-size: 16px;
-} */
-
-/* added text align to the .benefit-lead class to remove this class. */
-/* .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* added text align to the .benefit-brand class to remove this class. */
-/* .benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* added text align to the .benefit-brand class to remove this class. */
-/* .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-
-/* .footer h2 { // Changed the footer to h3 font with the same font size.
-    font-size: 20px;
-} */
+ @media screen and (max-width: 992px) {
+    body {
+      background-color: #189e35;
+    }
+  }
