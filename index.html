@@ -4,73 +4,82 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Matt Burke's Porfolio Webpage</title>
-    <style>
-        .link { color: #2729a8; text-decoration: underline;}
-    </style>
+    <!-- Changed the name of the website to Horiseon. -->
+    <title>Welcome to Horiseon!</title>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Matt Burke</h1>
+    <section class="header"> <!-- replaced div with section tag. -->
+        <!-- removed the <span class="seo"></span> as it served no purpose. -->
+        <h1>Horiseon</h1>
         <div>
             <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#my-work">My Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="#my-resume">My Resume</a></li>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
             </ul>
         </div>
-    </div>
-    <section class="stars"></section>
-    <div class="main-content">
-            <div class="about-me" id="about-me">
-            <h2>About Me</h2>
-                <article class="content-about">
-                <section class="about-item">
-                    <p class = "about-item">I was in the Navy for 4 years as an Informations Systems Technician from 2004-2008.
-                       I went to school 4 years at Kennesaw State University in 2010-2013 in Kennesaw, GA. 
-                       My concentration is in . I got my bachelor's degree, and my master's degree in Management of 
-                       Information System. I completed my education using an honor's program call the Accelerated 
-                       Bachelor's Master's (ABM) program.
-                       <p class = "about-item">I've been in tech support for over a decade now. I wasn't 
-                       getting anywhere I liked in the tech support environment. So I decided to switch careers, 
-                       which has brought me to Full Stack Web Development. This is a changing field, and that's encouraging to me
-                       because I get to learn new things. 
-                       <p class = "about-item">This is a new and exciting adventure for me. I know this craft is a highly sought-
-                       after skillset to have. I have friends who tell me all the time there is so much opportunity in web 
-                       development. I'm also relieved theres a lot of growth opportunities. 
-                    </p>
-                </section>
-            </article>            
-        </div>
-        <div class="my-work"id="my-work">
-            <h2>My Work</h2>
-            <article class="content-work">
-                 <section class="work-item"><h2>Coming Soon!</h2>
-
-                 </section>
-            </article>        
-        </div>
-        <div class="contact-me" id="contact-me">
-            <h2>Contact Me</h2>
-            <article class="content-contact">
-                <section class="contact-item">678-799-2323</section>
-                <section class="contact-item"><a class="link" href="mailto:burkemm84@gmail.com">burkemm84@gmail.com</a></section>
-                <section class="contact-item"><a class="link" href="https://github.com/burkemm" target="_blank">GitHub</a></section>
-                <section class="contact-item"><a class="link" href="https://www.linkedin.com/in/mburke33/" target="_blank">Linkedin</a></section>
-            </article>
-        </div>
-        <div class="my-resume" id="my-resume">
-            <h2>My Resume</h2>
-            <article class="content-resume">
-                <section class="resume-item"><a class="link" href="https://drive.google.com/file/d/1RylMXZDl-rQGyxddV8vlgQL8Vddcqgk1/view?usp=sharing" target="_blank">Matt Burke's Resume</section>
-                <p><center><img src=".//assets/images/Profile-Pic.jpg" width="200" height="200" /></center></p>
-                <section class="resume-item"><a class="link" href="https://drive.google.com/file/d/1I0XuR6DdK95EWzIZfjzzwJNSLREMO9c8/view?usp=sharing" target="_blank">Matt Burke's Cover Letter</section>
-            </article>
-        </div>
-        
     </section>
-
+    <section class="hero"></section> <!-- replaced div with section tag. -->
+    <section class="content"> <!-- replaced div with section tag. -->
+        <!-- Changed div class div id. Added the class search-engine-optimization for the link to function. -->
+        <div id="search-engine-optimization" class="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A SEO notebood, a laptop some pens, and some markers."/> <!-- added an alt tag for the image. -->
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+        </div>
+        <div id="online-reputation-management" class="online-reputation-management">
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="A laptop with a graph titled 'REPUTATION'."/> <!-- added an alt tag for the image. -->
+            <h2>Online Reputation Management</h2>
+            <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+            </p>
+        </div>
+        <div id="social-media-marketing" class="social-media-marketing">
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="assorted word bubbles that say 'like', 'tweet', or media"/> <!-- added an alt tag for the image. -->
+            <h2>Social Media Marketing</h2>
+            <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+            </p>
+        </div>
+    </section>
+    <section class="benefits"> <!-- replaced div with section tag. -->
+        <div class="benefit-lead">
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png" alt="an icon with a gear, down arrow, and a dollar sign."/> <!-- added an alt tag for the image. -->
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </p>
+        </div>
+        <div class="benefit-brand">
+            <h3>Brand Awareness</h3>
+            <img src="./assets/images/brand-awareness.png" alt="a light bulb with radio waves emitting."/> <!-- added an alt tag for the image. -->
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </div>
+        <div class="benefit-cost">
+            <h3>Cost Management</h3>
+            <img src="./assets/images/cost-management.png" alt="a gear inside three circles with dollar signs in them."/> <!-- added an alt tag for the image. -->
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </div>
+    </section>
+    <footer class="footer"> <!-- replaced div with footer tag. -->
+        <h3>Made with ❤️️ by Horiseon</h3>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
 </body>
+
 </html>
